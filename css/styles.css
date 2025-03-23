@@ -478,8 +478,6 @@ body {
   fill: #f4f4fd;
 }
 .footer-form-container {
-  display: flex;
-  flex-direction: column;
 }
 .footer-form-title {
   font-weight: 500;
@@ -625,7 +623,6 @@ body {
 .contact_form {
   border-radius: 4px;
   width: 360px;
-  height: 336px;
 }
 .contact-form-field {
   margin-bottom: 8px;
@@ -637,7 +634,6 @@ body {
   color: #8e8f99;
   line-height: 1.17;
   display: block;
-  margin-bottom: 4px;
 }
 .contact-input-container {
   position: relative;
@@ -727,7 +723,7 @@ input[type="checkbox"]:checked + .contact-form-label .span-checkbox {
 .form-submit-btn {
   border-radius: 4px;
   padding: 16px 32px;
-  margin: 24px auto 0px;
+  margin: 0 auto;
   display: block;
   border: none;
   min-width: 169px;
