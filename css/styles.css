@@ -634,6 +634,7 @@ body {
   color: #8e8f99;
   line-height: 1.17;
   display: block;
+  margin-bottom: 4px;
 }
 .contact-input-container {
   position: relative;
